@@ -30,7 +30,7 @@ public class MusicSystemTest {
 
     @Test
     public void addComponent(){
-        system.addComponent(new CDPlayer());
+        system.addComponent(new CDPlayer("K40", "Samsung"));
         assertEquals(1, system.getComponents().size());
     }
 }
