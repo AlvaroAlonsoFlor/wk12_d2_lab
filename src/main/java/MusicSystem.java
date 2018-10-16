@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MusicSystem {
+public class MusicSystem implements IConnect {
     private String name;
     private Radio radio;
     private ArrayList<Component> components;
