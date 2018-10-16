@@ -9,7 +9,7 @@ public class MusicSystemTest {
 
     @Before
     public void before() {
-        radio = new Radio();
+        radio = new Radio("Radio 1");
         system = new MusicSystem("Positron7000", radio);
     }
 
